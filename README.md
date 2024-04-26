@@ -1,6 +1,16 @@
 # smartpoint-2
 
-This template should help get you started developing with Vue 3 in Vite.
+## Technology Stack
+
+-   Vue 3
+-   Pinia
+-   Ant Design Vue
+-   Axios
+-   Router
+
+## Demo
+
+![alt text](https://service.crazypanda.ru/v/monosnap/2024-04-26-20-50-18-R28qU.png)
 
 ## Recommended IDE Setup
 

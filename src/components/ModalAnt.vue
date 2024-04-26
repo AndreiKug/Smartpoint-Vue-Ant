@@ -41,8 +41,8 @@ const closeModal = () => {
     <a-modal v-model:open="open" title="Добавить город" :footer="null">               
         <a-space direction="vertical">
             <a-input v-model:value="cityName" placeholder="Город" style="width: 400px"/>
-            <a-input v-model:value="carCount" placeholder="Кол-во автомобилей" />
-            <a-input v-model:value="population" placeholder="Кол-во жителей" />
+            <a-input type="number" v-model:value="carCount" placeholder="Кол-во автомобилей" />
+            <a-input type="number" v-model:value="population" placeholder="Кол-во жителей" />
             <a-button type="primary" @click="addCity">Заполнить</a-button>
         </a-space>
     </a-modal>
